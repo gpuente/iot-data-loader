@@ -1,4 +1,8 @@
 ### Node ###
+
+# Project
+dist
+
 # Logs
 logs
 *.log

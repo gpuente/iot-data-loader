@@ -4,7 +4,10 @@
   "description": "GraphQL interface to connect IoT APIs in a single service",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "start": "node dist/index.js"
   },
   "keywords": [
     "iot",
@@ -16,6 +19,7 @@
   "author": "Guillermo Puente <guillermo.ps09@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "rimraf": "^2.6.2",
     "typescript": "^3.1.3"
   }
 }
