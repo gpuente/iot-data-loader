@@ -1,0 +1,21 @@
+{
+  "name": "iot-dataloader",
+  "version": "1.0.0",
+  "description": "GraphQL interface to connect IoT APIs in a single service",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "typescript",
+    "graphql",
+    "rest",
+    "api"
+  ],
+  "author": "Guillermo Puente <guillermo.ps09@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.1.3"
+  }
+}
